@@ -1,0 +1,22 @@
+{
+  "name": "@city-td/site-gen",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Generate osm_sites / transit_sites, plot cells and stocks from Overpass + Metlink GTFS. Node-only — never import from apps/mobile.",
+  "scripts": {
+    "site-gen": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@city-td/game-core": "workspace:*",
+    "@supabase/supabase-js": "^2.57.4",
+    "adm-zip": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^22.18.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

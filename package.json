@@ -1,0 +1,12 @@
+{
+  "name": "city-td",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "test:game-core": "pnpm --filter @city-td/game-core test",
+    "typecheck:game-core": "pnpm --filter @city-td/game-core typecheck",
+    "site-gen": "pnpm --filter @city-td/site-gen site-gen",
+    "typecheck:site-gen": "pnpm --filter @city-td/site-gen typecheck",
+    "mobile": "pnpm --filter @city-td/mobile start"
+  }
+}
