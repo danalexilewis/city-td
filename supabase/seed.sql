@@ -1,0 +1,2 @@
+-- Optional local seed data. Site rows come from tools/site-gen.
+-- Keep empty for a clean db reset; add fixtures here if client walk-tests need them.
