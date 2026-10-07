@@ -1,0 +1,6 @@
+# Cached Overpass / GTFS downloads (reproducible runs)
+cache/
+*.zip
+.env
+.env.*
+!.env.example
